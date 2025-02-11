@@ -1,0 +1,21 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+ol {
+    background: #f30707;
+    padding: 20px;
+}
+ul {
+    background: #070bf3;
+    padding: 20px;
+}
+ol li {
+    background: #09ec42;
+    padding: 5px;
+    margin-bottom: 30px;
+}
+ul li {
+    background: #ecdd09;
+    margin: 40px;
+}
