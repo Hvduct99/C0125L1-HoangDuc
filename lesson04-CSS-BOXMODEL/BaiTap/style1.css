@@ -1,0 +1,15 @@
+.box {
+    margin: auto;
+    width: 200px;
+    height: 200px;
+    background-color: #595d61;
+    border: 10px solid white;
+    text-align: center;
+    box-sizing: border-box;
+    color: rgb(245, 122, 8);
+    font-size: 25px;
+    outline-color: green;
+    outline-width: 10px;
+    outline-style: solid;
+    line-height: 150px;
+}
