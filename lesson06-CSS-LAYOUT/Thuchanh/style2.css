@@ -1,0 +1,22 @@
+.container {
+    width: 100%;
+    overflow: auto;
+}
+.left-column {
+    width: 60%;
+    float: left;
+    background-color: aqua;
+    padding: 20px;
+}
+.right-column {
+    width: 35%;
+    float: right;
+    background-color: blue;
+    padding: 20px;
+}
+
+.container::after {
+    content: "";
+    display: block;
+    clear: both;
+}

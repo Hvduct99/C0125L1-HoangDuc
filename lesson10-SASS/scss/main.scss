@@ -1,0 +1,15 @@
+@use "reset" as r;
+@use "variables" as v;
+@use "container" as c;
+@use "header" as h;
+@use "footer" as f;
+
+@mixin base-button {
+    border: none;
+    background-color: v.$color-primary;
+    color: v.$font-color;
+    padding: 6px 12px;
+}
+body {
+
+}

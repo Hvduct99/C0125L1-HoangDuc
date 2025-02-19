@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+body {
+    height: 100vh;
+}
+
+header, footer{
+    padding: 20px;
+    color: white;
+    background-color: rgb(6, 7, 20);
+}
+.section {
+    margin: 7px 0 7px 7px;
+    padding: 15px;
+    background-color: #cdcdcd;
+    float: left;
+    width: 55%;
+    border: 1px solid black;
+}
+article {
+    margin: 5px;
+    padding: 10px;
+    background-color: whitesmoke;
+}
+.aside {
+    float: right;
+    width: 43.5%;
+    border: 1px solid black;
+    height: 100%;
+    padding: 15px;
+    margin: 7px 0 7px 7px;
+}
+.navbar ul {
+    padding: 0;
+}
+.navbar ul li {
+    display: inline;
+    margin: 5px;
+}
+
+.footer {
+    clear: both;
+    text-align: center;
+}
