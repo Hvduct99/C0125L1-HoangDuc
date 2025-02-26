@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 30px;
+    font-family: sans-serif;
+}
+.container {
+    min-height: 100vh;
+}
+.aside-left {
+    float: left;
+    background-color: aqua;
+    width: 30%;
+    height:600px;
+}
+.product {
+    background-color: blueviolet;
+    width: 150px;
+    height: 80px;
+    text-align: center;
+    line-height: 80px;
+    margin-top: 60px;
+    margin: 60px 35px 0 35px;
+}
+.order {
+    background-color: brown;
+    width: 150px;
+    height: 80px;
+    text-align: center;
+    line-height: 80px;
+    margin-left: 35px;
+}
+.aside-right {
+    float: left;
+    width: 70%;
+    background-color: aquamarine;
+    height: 600px
+}
+.menu {
+    height: 80px;
+    text-align: center;
+    line-height: 80px;
+    background-color: rgb(74, 24, 212);
+}
+.list {
+    line-height: 500px;
+    text-align: center;
+}
